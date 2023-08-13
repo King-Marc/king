@@ -1,0 +1,180 @@
+
+/*Image de fond du header*/
+
+#menu{
+    background-image: url('IMG2.png') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 0cm;
+}
+
+/*Diaproma du header*/
+.slider{
+
+    background: url(IMG6.png);
+    margin : 100px auto;
+    animation : slide 3s infinite;
+}
+
+@keyframes slide{
+
+    25%{
+
+        background: url(IMG5.png);
+    }
+
+    50%{
+
+        background: url(IMG4.png);
+    }
+
+    75%{
+
+        background: url(IMG1.png);
+    }
+
+    100%{
+
+        background: url(IMG2.png);
+    }
+
+}
+
+
+/*Logo*/
+
+h1{
+
+    color: rgb(255, 118, 6);
+    font-size: 2cm;
+}
+
+/*Barre de navigation*/
+
+nav ul {
+
+    color: white;
+    font-style: none;
+    list-style-type: none;
+    display: inline-flex;
+    padding-bottom: 10cm;
+    padding-left: 20cm;
+    margin-bottom: 12cm;
+    padding-top: -4px;
+    margin-top: -4px;
+}
+
+nav li{
+
+    margin-right: 15px;
+}
+
+nav ul li:hover a{
+
+    color: blue;
+    transition: 0.3s;
+}
+
+nav ul li.btn a{
+
+    text-decoration: none;
+    color: white;
+    text-align: right;
+    align-items: right;
+    padding-bottom: 3px;
+    font-size: 5mm;
+    align-content: right;
+    
+}
+
+/*Image de soulignement*/
+
+div    {
+
+    justify-content: center;
+    padding-left: 14.5cm;
+}
+
+.img2{
+
+    padding-bottom: 30px;
+}
+
+/*Rubrique comment pouvez vous nous aider*/
+
+#donnation{
+
+    margin-left: 1cm;
+    padding-top: 5cm;
+
+}
+
+.section1{
+
+    padding-right: 12cm;
+}
+
+/*Contenu A propos de nous*/
+
+p{
+
+    background-color: rgba(rgb(219, 112, 112), 0, 0, 0.5);
+    border: none;
+    color: black;
+    padding: 1rem;
+    text-align: center;
+    overflow: rgb(128, 123, 123);
+    text-decoration: none;
+    display: inline-block;
+    margin:4px 2px;
+    border-radius: 2rem;
+    box-shadow: 5px 3px rgb(144, 141, 141);
+    opacity: 0.5px;
+    width: 330px;
+    margin-left: 9cm;
+    word-wrap: break-word;
+    font-size: 0.7cm;
+    margin-bottom: 10cm;
+    margin-top: 3cm;
+    padding-left: 2cm;
+    padding-right: 2cm;
+    padding-bottom: 2cm;
+    padding-top: 2cm;
+}
+
+
+/*Rubrique Souscription*/
+
+#navbar{
+
+    background-color: rgba(185, 185, 127, 0.635);
+    padding-top: 10px;
+}
+form{
+
+    align-content: center;
+    margin-left: 13.5cm;
+    float: flex;
+    padding-bottom: 60px;
+}
+
+
+/*Rubrique contactez-nous*/
+
+h6{
+
+    margin-left: 12.7cm;
+    font-size: 0.7cm;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 5cm;
+    margin-bottom: 0.5cm;
+}
+
+
+/*Pied de page*/
+footer{
+
+    text-align: center;
+    background-color: gray;
+}
+
